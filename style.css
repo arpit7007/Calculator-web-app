@@ -20,12 +20,12 @@
     border-radius: 10px 10px 0px 0px;
 }
 #display{
-    max-height: 5vh;
+    max-height: 4vh;
     overflow: hidden;
     color: white;
     font-family: monospace;
     padding: 20px;
-    font-size: 5em;
+    font-size: 3em;
 }
 .bottombar{
     
