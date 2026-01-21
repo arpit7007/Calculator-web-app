@@ -20,6 +20,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 #display{
+    max-height: 5vh;
     overflow: hidden;
     color: white;
     font-family: monospace;
@@ -58,30 +59,27 @@
     width: 8vh;
     background-color: rgb(99, 99, 98);
 }
-#c{
-     color: white;
-     font-size: 1.5em;
-    font-family: monospace;
-    margin-top: 1vh;
-     display: flex;
-    border-radius: 50px;
-    justify-content: center;
-    align-items:center ;
-    height: 8vh;
-    background-color: hsla(40, 100%, 50%, 0.908);
-    width: 8vh;
-    margin-left: 30px;
-    display: flex;
-}
+
 
 .rows .ybutton{
     background-color: hsla(40, 100%, 50%, 0.908);
 }
+.rows .ybutton:hover{
+    background-color: hsla(40, 99%, 63%, 0.908);;
+}
 
 .rows div:hover{
     cursor: pointer;
+    background-color: rgb(113, 113, 113);
 }
 #c:hover{
     cursor: pointer;
 }
+.rows .non{
+    background-color:rgb(50, 49, 49); ;
+}
+.rows .non:hover{
+    background-color:rgb(50, 49, 49);
+}
+
 
