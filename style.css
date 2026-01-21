@@ -13,10 +13,18 @@
     width: 45vh;
 }
 .topbar{
+   
     display: block;
     height: 12vh;
     background-color: rgb(68, 68, 68);
     border-radius: 10px 10px 0px 0px;
+}
+#display{
+    overflow: hidden;
+    color: white;
+    font-family: monospace;
+    padding: 20px;
+    font-size: 5em;
 }
 .bottombar{
     
@@ -69,5 +77,11 @@
 .rows .ybutton{
     background-color: hsla(40, 100%, 50%, 0.908);
 }
-    
+
+.rows div:hover{
+    cursor: pointer;
+}
+#c:hover{
+    cursor: pointer;
+}
 
