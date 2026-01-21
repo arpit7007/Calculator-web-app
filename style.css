@@ -1,0 +1,73 @@
+.wrapper{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    
+    background-color: red;
+    border-radius: 10px;
+    height: 60vh;
+    width: 45vh;
+}
+.topbar{
+    display: block;
+    height: 12vh;
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px 10px 0px 0px;
+}
+.bottombar{
+    
+    
+    height: 50vh;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(50, 49, 49);
+}
+.grid{
+    padding-top: 2vh;
+}
+
+
+
+.rows{
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    display: flex;
+}
+.rows div{
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    margin-top: 1vh;
+     display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items:center ;
+    height: 8vh;
+    width: 8vh;
+    background-color: rgb(99, 99, 98);
+}
+#c{
+     color: white;
+     font-size: 1.5em;
+    font-family: monospace;
+    margin-top: 1vh;
+     display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items:center ;
+    height: 8vh;
+    background-color: hsla(40, 100%, 50%, 0.908);
+    width: 8vh;
+    margin-left: 30px;
+    display: flex;
+}
+
+.rows .ybutton{
+    background-color: hsla(40, 100%, 50%, 0.908);
+}
+    
+
